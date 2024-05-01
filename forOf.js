@@ -33,10 +33,9 @@ let sum = 0;
 
  //in strings 
  let str = 'abc'
- for(let i of str){
+ for(let i in str){
     console.log(i)
  }
 
  //in maps
 
- 
