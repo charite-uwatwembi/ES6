@@ -43,4 +43,6 @@ for (const [key, value] of members) {
     console.log(`${key}: ${value}`);
   }
   
+  // using forEach
+  members.forEach((value, key) => console.log(key, value));
 
