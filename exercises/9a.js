@@ -23,8 +23,3 @@ class maths{
 }
 module.exports = maths
 
-let numbers = new maths(4,2)
-console.log(numbers.addition())
-console.log(numbers.subtraction())
-console.log(numbers.multiplication())
-console.log(numbers.division())
