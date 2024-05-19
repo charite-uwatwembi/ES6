@@ -7,13 +7,18 @@ function*  getEmployee(){
     const names=['charite','ange','Aime','hew','Ruth']
     
     for(const name of names){
-        console.log(name)
-        yield
+        // console.log(name)
+        yield name
     }
      console.log('The function has ended🤗')
 
 }
 const generatorIterator = getEmployee();
-generatorIterator.next(); //charite
+console.log(generatorIterator.next()); //charite
+console.log(generatorIterator.next()); //charite
+console.log(generatorIterator.next()); //charite
+console.log(generatorIterator.next()); //charite
+console.log(generatorIterator.next()); //charite
+console.log(generatorIterator.next()); //charite
 generatorIterator.next(); //ange
-generatorIterator.next(); //aime
+// generatorIterator.next(); //aime
